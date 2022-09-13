@@ -1,8 +1,8 @@
 
 import { AppBar, Tab, Tabs, Toolbar, Typography } from '@mui/material';
 import React from 'react';
-import "../CSS/Header.css"
-import logo from "../Assets/Images/Arch_logo.png"
+import logo from "../Assets/Images/The Arch Interior.svg";
+import "../CSS/Header.css";
 
 const Header = () => {
   return (
@@ -10,12 +10,12 @@ const Header = () => {
         <AppBar sx={{ background: "#000000"}}> 
         <div className="logo">
           
-          <img src={logo} alt width={70} height={70}>
+          <img src={logo} alt width={800} height={70}>
           </img>
         </div>
         <div className='logotext'>
           <Typography>
-            The Arch Interior
+            
           </Typography>
 
         </div>

@@ -34,7 +34,11 @@ const Header = () => {
               </Tabs>
             </Toolbar>
         </AppBar>
+        <div>
+    <button className='btn-slider' type='submit'>send</button>
     </div>
+    </div>
+    
   );
 };
 

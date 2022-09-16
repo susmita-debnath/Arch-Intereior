@@ -1,0 +1,31 @@
+/*Header Component*/
+
+.logo {
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.logotext {
+  text-align: center;
+}
+
+.tabs {
+  color: white;
+}
+
+/* CardElement component */
+
+.insidePaper {
+  height: 50px;
+  width: 60px;
+  background-color: #dc7e0c;
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+  margin-top: 20px;
+}
+
+.paperText {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}

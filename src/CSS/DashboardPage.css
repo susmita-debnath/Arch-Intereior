@@ -1,0 +1,27 @@
+.Dashboard {
+  align-items: flex-start;
+  flex-direction: row;
+}
+.Header {
+}
+
+.Quote {
+  margin-top: 11%;
+  width: 100%;
+  background: url(../Assets/Images/quote_image.jpg);
+  height: 100vh;
+  object-fit: cover;
+}
+
+.cardText {
+  text-align: center;
+  padding-top: 30px;
+  margin: 10px 0px 20px 10px;
+  color: white;
+  font-size: xxx-large;
+}
+
+.card {
+  text-align: center;
+  margin: 30px 0px 30px 200px;
+}

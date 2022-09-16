@@ -3,6 +3,8 @@ import { AppBar, Tab, Tabs, Toolbar, Typography } from '@mui/material';
 import React from 'react';
 import logo from "../Assets/Images/The Arch Interior.svg";
 import "../CSS/Header.css";
+import Box from '@mui/material/Box';
+
 
 const Header = () => {
   return (
@@ -14,25 +16,25 @@ const Header = () => {
           </img>
         </div>
         <div className='logotext'>
-          <Typography>
-            
-          </Typography>
+          </div>
 
-        </div>
-            <Toolbar>
-              <Tabs sx={{margin: "auto"}} textColor="#FFFFFF">
-               
-                <Tab label= "Project"/>
-                <Tab label= "People"/>
-                <Tab label= "Expertise"/>
-                <Tab label= "About Us"/>
-                <Tab label= "Insights"/>
+          <Box sx={{ width: '100%' }}>
+      <Tabs
+       centered
+        // value={value}
+        // onChange={handleChange}
+        textColor="#FFFFFF"
+        indicatorColor="#FF000"
+        aria-label="secondary tabs example"
+      >
+        <Tab value="one" label="Products" />
+        <Tab value="two" label="Collection" />
+        <Tab value="three" label="About" />
+        <Tab value="four" label="Heritage" />
+        <Tab value="five" label="About Us" />
 
-
-               
-
-              </Tabs>
-            </Toolbar>
+      </Tabs>
+    </Box>
         </AppBar>
     </div>
   );
